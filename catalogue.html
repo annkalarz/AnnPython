@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Catalogue</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>!-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700|Share+Tech+Mono' rel='stylesheet' type='text/css'>
+
+    <font face = 'Share Tech Mono' color="black" size="10" class="font-effect-3d"><center><h1>Speaker World</h1></center></font>
+<body style="margin:50;padding:0" background="Images/background.jpg">
+  <table style='width:100; border-collapse:collapse' cellspacing="0" cellpadding="0" border="0"
+  id="shell" height="100" >
+
+      <tr>
+        <td  valign="top">
+          <table id="navigation" title="Navigation" border="0" width="350">
+            <tr><td><font color= "white"><b><h2>MENU</h2></b></font></td></tr>
+            <tr><td><font color= "white"><A HREF ="./index.html">HOME</A></font></td></tr>
+            <tr><td><font color= "white"><A HREF ="./catalogue.html">Catalogue</A></font></td></tr>
+            <tr><td><font color= "white"><A HREF ="./login.html" target="_blank">Login</font></td></tr>
+            <!--tr><td><font color= "white"><A HREF ="./registration.html" target="_blank">Register</A></font></td></tr-->
+          </table>
+        </td>
+      <td>
+          <table title="Content" id="content" border="0" align= "center" bgcolor="white" cellpadding="100">
+            <tr><td><font color= "black">
+              <h1 align ="right">Our BEST-SELLERS at the LOWEST prices, GUARANTEE!</h1>
+              <h3>Consider your Holiday Shopping List Done</h3>
+              <br>
+              <div><b>Sound Splash Bluetooth Waterproof Shower Speaker</b>
+              <IMG BORDER="0" ALIGN="Right" SRC="Images/waterproofshowerspeaker.jpg"> 
+              <p>
+                Why You NEED it:
+                <div>
+                &#10004; Great gift for busy parents, teens, or Aquaman<br>
+                &#10004; Level IPX4 waterproof: protected against splashing water from any angle<br>
+                &#10004; Streams music or phone calls to a waterproof speaker via Bluetooth<br>
+                &#10004; Range: up to 60 feet while paired<br>
+                &#10004; Batteries: Built-in rechargeable battery (10 hours of play per charge)<br>
+                &#10004; Includes: Quickstart Guide, micro USB charging cable, suction cups<br>
+                &#10004; Dimensions: 4 1/2" x 2.9" x 1.6" <br>
+                &#10004; Weight: 7 ounces 
+              </p>
+
+              <p>
+                Price: $34.99 CDN
+              </p></div>
+                <form name="order" action="Purchase.py" method="get">
+                <!--username-->
+                <input name="item1" type="checkbox" value="no">
+                <label for="item1">Add to cart</label>
+                <br>
+                <label for="Quantity1">Quantity:</label>
+                <input name="Quantity1" type= "number" type= "textbox" value="0" min="0">  
+
+                <br>
+                <br>
+              <p>
+                <div><b>Light Show Fountain Speakers</b>
+                <IMG BORDER="0" ALIGN="Right" SRC="Images/fountainspeakers.gif"> 
+                <p>
+                  Why You NEED it: 
+                  <div>
+                  &#10004; Let your music dance before your eyes, water bounces to the beat!<br>
+                  &#10004; Multi-colored LEDs light up the water<br>
+                  &#10004; Added Bonus: Awesome reflection on the ceiling<br>
+                  &#10004; USB cable included for power,Power: 5v USB (can be plugged into a smartphone/tablet charger)<br>
+                  &#10004; Dimensions: 9 inches tall 
+                </p>
+              <p>
+                Price:$49.99 CDN
+              </p></div>
+              <!--form action="" method="get"-->
+              <input type="checkbox" name="item2" value="no">
+              <label for="item2">Add to cart</label>
+              <br>
+              <label for="Quantity2">Quantity:</label>
+              <input type= "number" name="Quantity2" type= "textbox" value="0" min="0">      
+              <br>
+              <br>
+              <p>
+                <div><b>POP Drop Hanging Speaker</b>
+                <IMG BORDER="0" ALIGN="Right" SRC="Images/hangingspeakers.jpg"> 
+              <p>
+                Why You NEED it: 
+                <div>
+                &#10004; Portable Speakers Compatible with Bluetooth&reg; 2.1+ devices<br>
+                &#10004; 33 ft. wireless range<br>
+                &#10004; Built-in microphone for phone calls<br>
+                &#10004; Answer phone calls with the push of a button<br>
+                &#10004; Batteries: Rechargeable 300mA Lithium-ion (3 hours on one charge)<br>
+                &#10004; Recharges via micro USB cable (included, takes 90 minutes)<br>
+                &#10004; Dimensions: 2 1/4" x 2 3/4" x 3/4" <br>
+                &#10004;Weight: 2 oz. <br>
+                &#10004;Includes speaker, micro USB charging cable, wrist strap, and user guide
+              </p>
+              <p>
+                Price:$19.99 CDN
+              </p></div>
+              <form name="order" action="login.cgi" method="get">
+              <input type="checkbox" name="item3" value="no">
+              <label for="item3">Add to cart</label>
+              <br>
+              <label for="Quantity3">Quantity:</label>
+              <input type= "number" name="Quantity3" type= "textbox" id="item3" value="0"min="0">       
+              <br>
+              <br>
+            </font></td></tr>
+            <td valign="top"><p><center><input type = "submit" value = "Checkout" style="height:80px;width:400px"></center></p></td>
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+</html>
